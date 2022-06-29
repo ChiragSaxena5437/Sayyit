@@ -14,7 +14,7 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
     return (
-        <div className='flex flex-col col-span-2'>
+        <div className='flex flex-col col-span-2 items-center px-4 md:items-start'>
 
             <img className="Left__Image" src="/Sayyitbg.png" />
             <SidebarRow Icon={HomeIcon} title="Home" />

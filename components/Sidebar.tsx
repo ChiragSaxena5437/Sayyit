@@ -16,7 +16,7 @@ function Sidebar() {
     return (
         <div className='flex flex-col col-span-2 items-center px-4 md:items-start'>
 
-            <img className="Left__Image" src="/Sayyitbg.png" />
+            <img className="Left__Image m-3" src="/Sayyitbg.png" />
             <SidebarRow Icon={HomeIcon} title="Home" />
             <SidebarRow Icon={HashtagIcon} title="Explore" />
             <SidebarRow Icon={BellIcon} title="Notifications" />
